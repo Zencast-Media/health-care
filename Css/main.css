@@ -260,20 +260,37 @@ html {
 .sidebar-widget.tags a:hover {
 	text-decoration: none;
 }
-.card-mod {
+/* .card-mod {
 	width: 17rem;
 	border: none !important;
 	border-radius: 10px !important;
-}
+} */
 .card {
+	width: 33.33%;
 	border-radius: 17px !important;
-	height: 100% !important;
+	height: 450px !important;
+}
+.card-mod {
+	background-image: url(../Assets/images/rent1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 33.33%;
+}
+.card-mod-div-img {
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	border-radius: 17px;
 }
 .card-img,
 .card-img-top {
 	border-top-left-radius: 17px !important;
 	border-top-right-radius: 17px !important;
-	/* height: 50%; */
+	height: 100%;
+}
+.card-resp-marg {
+	margin-left: 25px;
+	margin-right: 25px;
 }
 .card-div-img {
 	height: 50%;
