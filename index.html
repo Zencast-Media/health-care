@@ -37,8 +37,7 @@
 		<!-- Banner01 Section-->
 		<section class="re-sec01 position-relative w-100">
 			<div class='mmt-banner-blur w-100 h-100'>
-				<div class='position-absolute w-100'>
-					
+				<div class='position-absolute w-100' style='top: 0; z-index: 100;'>
 					<!-- Navbar starts -->
 					<section class="container-fluid">
 						<nav class="extra-pad container-lg navbar navbar-expand-lg navbar-light py-1">
@@ -65,16 +64,16 @@
 										>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">About Us</a>
+										<a class="nav-link" href="./about.html">About Us</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">Services</a>
+										<a class="nav-link" href="./services.html">Services</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">Patient</a>
+										<a class="nav-link" href="./blog.html">Blog</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#">Contact Us</a>
+										<a class="nav-link" href="./contact.html">Contact Us</a>
 									</li>
 									<button type='button' class='mr-3 btn btn-purp btn-sm rounded-pill'>Virtual Care</button>
 									<button type='button' class='btn btn-outline btn-sm rounded-pill'>Virtual Care</button>
@@ -85,23 +84,82 @@
 					<!-- Navbar Ends -->
 				</div>
 
-				<div class="id-banner01 container-lg py-3 mmt-banner-content-resp">
-					<div class="extra-pad row">
-						<div class="id-banner-01-lft col-12 order-md-12 px-0">
-							<div class="img-dv float-none m-auto float-sm-right w-100"><div id="carouselExampleIndicators" class="" data-ride="carousel">
-								<ol class="carousel-indicators">
-								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-								</ol>
-								<div class="carousel-inner">
-								<div class="carousel-item active">
-									<div class='d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between'>
+				<div class="id-banner01 container-lg py-3 mmt-banner-content-resp h-100">
+					<div class="extra-pad row h-100">
+						<div class="id-banner-01-lft col-12 order-md-12 px-0 h-100">
+							<div class="img-dv float-none m-auto float-sm-right w-100 h-100"><div id="carouselExampleIndicators" class="h-100" data-ride="carousel">
+								
+								<div class="carousel-inner position-relative h-100">
+									<div class="id-section04-r8 position-absolute h-100 d-flex align-items-center justify-content-center" style='top: 0; right: 16px; z-index: 100000;'>
+										<div class="id-form-dv p-3">
+											<h6 class="white font-weight-bolder text-center mb-3">BOOK  APPOINTMENT</h6>
+											<form>
+												<div class="form-group">
+													<input
+														type="text"
+														class="form-control"
+														id="exampleInputFirstName1"
+														placeholder="First Name"
+													/>
+												</div>
+												<div class="form-group">
+													<input
+														type="text"
+														class="form-control"
+														id="exampleInputLastName1"
+														placeholder="Last Name"
+													/>
+												</div>
+												<div class="form-group">
+													<input
+														type="email"
+														class="form-control"
+														id="exampleInputEmail1"
+														aria-describedby="emailHelp"
+														placeholder="E-Mail Adderss"
+													/>
+												</div>
+												<div class='form-group'>
+													<div class='d-flex flex-row align-items-start justify-content-between'>
+														<div class="input-group mb-0 align-items-center">
+																<input type="checkbox" aria-label="Checkbox for following text input" class='mr-2'>
+																<p class='mb-0 font-12 font-weight-bolder white'>CHESTERMERE</p>
+													  	</div>
+														<div class="input-group mb-0 align-items-center ">
+																<input type="checkbox" aria-label="Checkbox for following text input" class='mr-2'>
+																<p class='mb-0 font-12 font-weight-bolder white'>SADDLERIDGE</p>
+														</div>
+													</div>
+												</div>
+												<div class='form-group'>
+													<div class='d-flex flex-row align-items-start justify-content-between'>
+														<div class="input-group mb-2 align-items-center">
+																<input type="checkbox" aria-label="Checkbox for following text input" class='mr-2'>
+																<p class='mb-0 font-12 font-weight-bolder white'>AIRDRIE</p>
+													  	</div>
+														<div class="input-group mb-2 align-items-center">
+																<input type="checkbox" aria-label="Checkbox for following text input" class='mr-2'>
+																<p class='mb-0 font-12 font-weight-bolder white'>SAVANNA</p>
+														</div>
+													</div>
+												</div>
+												<button
+													type="submit"
+													class="bt-hov btn bg-white w-100 btn-sm"
+												>Submit
+													
+												</button>
+												<h6 class="white modified-small font-weight-bolder text-center mt-2">OFFICE MON - FRI @ 9:00AM to 5:30PM</h6>
+											</form>
+										</div>
+									</div>
+								<div class="carousel-item active h-100">
+									<div class='d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-between h-100'>
 										<div class="
 											w-100
 											d-flex
 											flex-column
-											align-items-center align-items-md-start
+											align-items-center
 											justify-content-center justify-content-md-start
 											py-4
 											order-12 order-md-2
@@ -110,34 +168,32 @@
 											<h5 class="white text-center text-md-left">
 												<strong>Penthouse Appartmentwith 5 Rooms in <br/>Pipera-Banessa Forest Area</strong>
 											</h5>
-											<small class="mt-2 white"> Lorem ipsum is placeholder text commonly used in the graphic</small>
-											<div>
+											<small class="mt-2 white text-center text-md-left"> Lorem ipsum is placeholder text commonly used in the graphic</small>
+											<div class='d-flex flex-row justify-content-center justify-content-md-start align-items-center'>
 
 												<button
 													type="button"
-													class="btn btn-sm btn-purp mt-4 white modified-small"
+													class="btn btn-purp mt-4 mr-3 white modified-small rounded-pill"
 												>
-													VIEW DETAILS
+													READ MORE
 												</button>
 												<button
 													type="button"
-													class="btn btn-sm btn-outline mt-4 white modified-small"
+													class="btn btn-outline mt-4 white modified-small rounded-pill"
 												>
-													SEE ALL APARTMENTS 
+													APPOINTMENT 
 												</button>
 											</div>
 										</div>
-										<div class='mmt-bnr-circle-img order-2 order-md-12' style='background-image: url(./Assets/images/b1.jpg);'>
-										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class='d-flex flex-md-row flex-column justify-content-center align-items-center justify-content-md-between'>
+								<div class="carousel-item h-100">
+									<div class='d-flex flex-md-row flex-column justify-content-center align-items-center justify-content-md-between h-100'>
 										<div class="
 											w-100
 											d-flex
 											flex-column
-											align-items-center align-items-md-start
+											align-items-center
 											justify-content-center justify-content-md-start
 											py-4
 											order-12 order-md-2
@@ -146,35 +202,32 @@
 											<h5 class="white text-center text-md-left">
 												<strong>Bunglow Appartment with 7 Rooms in <br/>Coast Forest Area</strong>
 											</h5>
-											<small class="mt-2 white"> Lorem ipsum is placeholder text commonly used in the graphic</small>
-											<div>
+											<small class="mt-2 white text-center text-md-left"> Lorem ipsum is placeholder text commonly used in the graphic</small>
+											<div class='d-flex flex-row justify-content-center justify-content-md-start align-items-center'>
 
 												<button
 													type="button"
-													class="btn btn-sm btn-purp mt-4 white modified-small"
+													class="btn btn-purp mt-4 mr-3 white modified-small rounded-pill"
 												>
-													VIEW DETAILS
+													READ MORE
 												</button>
 												<button
 													type="button"
-													class="btn btn-sm btn-outline mt-4 white modified-small"
+													class="btn btn-outline mt-4 white modified-small rounded-pill"
 												>
-													SEE ALL APARTMENTS 
+													APPOINTMENT 
 												</button>
 											</div>
 										</div>
-
-										<div class='mmt-bnr-circle-img order-2 order-md-12'  style='background-image: url(./Assets/images/b2.jpg);'>
-										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class='d-flex flex-md-row flex-column justify-content-center align-items-center justify-content-md-between'>
+								<div class="carousel-item h-100">
+									<div class='d-flex flex-md-row flex-column justify-content-center align-items-center justify-content-md-between h-100'>
 										<div class="
 											w-100
 											d-flex
 											flex-column
-											align-items-center align-items-md-start
+											align-items-center
 											justify-content-center justify-content-md-start
 											py-4
 											order-12 order-md-2
@@ -183,27 +236,31 @@
 											<h5 class="white text-center text-md-left">
 												<strong>Penthouse Appartmentwith 5 Rooms in <br/> Pipera-Banessa Forest Area</strong>
 											</h5>
-											<small class="mt-2 white"> Lorem ipsum is placeholder text commonly used in the graphic</small>
-											<div>
+											<small class="mt-2 white text-center text-md-left"> Lorem ipsum is placeholder text commonly used in the graphic</small>
+											<div class='d-flex flex-row justify-content-center justify-content-md-start align-items-center'>
 
 												<button
 													type="button"
-													class="btn btn-sm btn-purp mt-4 white modified-small"
+													class="btn btn-purp mt-4 mr-3 white modified-small rounded-pill"
 												>
-													VIEW DETAILS
+													READ MORE
 												</button>
 												<button
 													type="button"
-													class="btn btn-sm btn-outline mt-4 white modified-small"
+													class="btn btn-outline mt-4 white modified-small rounded-pill"
 												>
-													SEE ALL APARTMENTS 
+													APPOINTMENT 
 												</button>
 											</div>
 										</div>
-										<div class='mmt-bnr-circle-img order-2 order-md-12'  style='background-image: url(./Assets/images/b3.jpg);'>
-										</div>
 									</div>
 								</div>
+
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									</ol>
 								</div>
 							</div>
 							</div>
@@ -532,7 +589,7 @@
 		<section class="id-section06">
 			<div class="container-lg extra-pad pt-5">
 				<div class="row jusutify-content-start align-items-start">
-					<div class="col-12 col-md-4text-left responsive-pd-top">
+					<div class="col-12 col-md-4 text-left responsive-pd-top">
 						<h5 class="font-weight-bolder">Chestermere Location</h5>
 						<div class="id-divider-footer mb-4"></div>
 						<div class="footer-contact-block mb-1">
@@ -562,7 +619,9 @@
 						</div>
 					</div>
 					<div class="col-12 col-md-8 text-left responsive-pd-top">
-						
+						<div class="google-map ">
+							<div id="map"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -651,71 +710,52 @@
 					</div>
 					<div class="col-12 col-md-3 col-lg-3 text-left responsive-pd-top">
 						<h5 class="font-weight-bolder mb-4">Subscribe with Us</h5>
-						<div
-							class="
-								d-flex
-								flex-row
-								align-items-start
-								justify-content-center justify-content-md-start
-								id-section06-top
-								w-100
-							"
-						>
-							<div class="id-section06-img">
-								<img
-									src="./Assets/images/leaf.png"
-									class="w-100 bg-light h-100"
-									style="border-radius: 3px"
+						<form>
+							<div class="form-group">
+								<button
+									type="submit"
+									class="bt-hov btn btn-purp w-100 btn-sm rounded-pill text-left"
+									style='height: 35px;'
+									>John Doe
+									
+								</button>
+							</div>
+							<div class="form-group">
+								<input
+									type="email"
+									class="form-control"
+									id="exampleInputEmail1"
+									aria-describedby="emailHelp"
+									placeholder="E-Mail Adderss"
 								/>
 							</div>
-							<div class="ml-2 flex-one d-flex align-items-start">
-								<small class="modified-small">
-									Lorem Ipsum is simply dummy text of the printing
-								</small>
-							</div>
-						</div>
-						<div
-							class="
-								d-flex
-								flex-row
-								align-items-start
-								justify-content-center justify-content-md-start
-								id-section06-bottom
-								w-100
-							"
-						>
-							<div class="id-section06-img">
-								<img
-									src="./Assets/images/leaf.png"
-									class="w-100 bg-light h-100"
-									style="border-radius: 3px"
-								/>
-							</div>
-							<div class="ml-2 flex-one d-flex align-items-start">
-								<small class="modified-small lht-14">
-									Lorem Ipsum is simply dummy text of the printing
-								</small>
-							</div>
-						</div>
+							<button
+								type="submit"
+								class="bt-hov btn btn-purp w-100 btn-sm"
+								style='height: 35px;'
+							>Submit
+								
+							</button>
+							<h6 class="white modified-small font-weight-bolder text-center mt-2">OFFICE MON - FRI @ 9:00AM to 5:30PM</h6>
+						</form>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- Section07/Footer starts  -->
-		<section class="id-section07">
+		<section class="id-section07 bg-g">
 			<div class="container-lg extra-pad">
 				<div
 					class="
 						d-flex
 						flex-column flex-md-row
 						justify-content-center
-						justify-content-md-between
 						align-items-center
 						py-1
 					"
 				>
-					<p class="m-0 modified-small font-weight-bolder d-B">Copyright @ 2021 | Designed & Developed by Magicmind Technologies</p>
+					<p class="m-0 font-14 text-center font-weight-bolder white">Copyright @ 2021 | Designed & Developed by Magicmind Technologies</p>
 				</div>
 			</div>
 		</section>
@@ -742,6 +782,10 @@
 		<script src="Assets/library/jquery/jquery.min.js"></script>
 		<script src="Assets/library/jquery.easing/jquery.easing.min.js"></script>
 		<script src="Assets/library/scrollreveal/scrollreveal.min.js"></script>
+
+		<!-- Google Map -->
+		<script src="Plugins/google-map/map.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> 
 
 		<!-- Template Main JS File -->
 		<script src="Assets/js/main.js"></script>

@@ -54,7 +54,7 @@ html {
 .navbar-light .navbar-nav .nav-link {
 	font-size: 16px;
 	text-align: center;
-	color: #ffffff;
+	color: #000000;
 	margin-right: 20px;
 }
 .mmt-top-nav {
@@ -115,11 +115,11 @@ html {
 	left: 0px;
 }
 .mmt-banner-content-resp {
-	bottom: 100px;
-	position: absolute;
+	bottom: 0px;
 	width: 100%;
 	right: 0px;
 	left: 0px;
+	top: 0px;
 }
 
 .mmt-form-disp {
@@ -175,13 +175,15 @@ html {
 
 .id-form-dv {
 	width: 100%;
+	background: #d61865;
+	border-radius: 17px;
 }
 
 .form-control {
 	font-size: 14px !important;
 	background: #ffffff !important;
-	border-radius: 0px;
-	height: 32px;
+	border-radius: 17px;
+	height: 35px;
 }
 ::placeholder {
 	font-size: 11px;
@@ -191,7 +193,7 @@ html {
 	width: 50%;
 }
 .id-section04-r8 {
-	width: 50%;
+	width: 280px;
 }
 
 /* Section06 styles starts here */
@@ -406,6 +408,16 @@ html {
 	align-items: center;
 }
 
+.google-map {
+	position: relative;
+}
+
+.google-map #map {
+	width: 100%;
+	height: 300px;
+	border-radius: 17px;
+}
+
 /* Media Query starts here */
 @media only screen and (max-width: 1023px) {
 	.id-section04-lft-img {
@@ -413,9 +425,6 @@ html {
 	}
 	.id-section04-lft {
 		padding: 20px;
-	}
-	.id-form-dv {
-		top: -183px;
 	}
 }
 @media only screen and (max-width: 992px) {
@@ -441,9 +450,9 @@ html {
 		padding-left: 50px;
 		padding-right: 50px;
 	} */
-	.card-mod {
+	/* .card-mod {
 		width: 13rem;
-	}
+	} */
 }
 
 @media only screen and (max-width: 991px) {
@@ -499,13 +508,6 @@ html {
 		left: 0px;
 	}
 
-	.mmt-banner-content-resp {
-		bottom: 30px;
-		position: absolute;
-		width: 100%;
-		right: 0px;
-		left: 0px;
-	}
 	.id-section04-lft {
 		width: 100%;
 	}
@@ -516,9 +518,9 @@ html {
 		padding-left: 25px;
 		padding-right: 25px;
 	} */
-	.card-mod {
+	/* .card-mod {
 		width: 18rem;
-	}
+	} */
 }
 @media only screen and (max-width: 600px) {
 	/* .extra-pad {
@@ -554,9 +556,9 @@ html {
 		padding-top: 30px;
 	}
 
-	.card-mod {
+	/* .card-mod {
 		width: calc(100% - 32px);
-	}
+	} */
 	.id-divider-resp {
 		margin: 0 auto;
 	}
