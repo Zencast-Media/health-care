@@ -45,7 +45,7 @@
 	color: #9a9a9a !important;
 }
 .img-50 {
-	width: 70%;
+	width: 100%;
 }
 .d-b {
 	color: #d61865 !important;
@@ -61,8 +61,12 @@
 	border: 1px solid #70b247 !important;
 }
 .bg-g {
-	background-color: #4b0369 !important;
-	border: 1px solid #4b0369 !important;
+	background-color: #333645 !important;
+	border: 1px solid #333645 !important;
+}
+.bg-p {
+	background-color: #d61865 !important;
+	border: 1px solid #d61865 !important;
 }
 
 .btn-purp {

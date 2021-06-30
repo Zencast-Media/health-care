@@ -354,6 +354,23 @@ html {
 .mmt-rsp-img {
 	width: 33.33%;
 }
+.id-section02-sub-dv {
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background: transparent;
+}
+
+.cab-img-dv {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 /* Media Query starts here */
 @media only screen and (max-width: 1023px) {
