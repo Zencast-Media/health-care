@@ -57,6 +57,11 @@ html {
 	color: #000000;
 	margin-right: 20px;
 }
+
+.mmt-header-resp-btn {
+	margin-bottom: 0rem;
+	margin-right: 1rem;
+}
 .mmt-top-nav {
 	border-bottom: 1px solid #a4a4a5;
 }
@@ -194,6 +199,9 @@ html {
 }
 .id-section04-r8 {
 	width: 280px;
+	top: 0;
+	right: 16px;
+	z-index: 10;
 }
 
 /* Section06 styles starts here */
@@ -431,6 +439,15 @@ html {
 	.id-section-lft {
 		width: 45%;
 	}
+	.navbar-light .navbar-nav .nav-link {
+		margin-right: 0px;
+	}
+	.mmt-header-resp-btn {
+		margin-bottom: 1rem;
+		margin-right: 0rem;
+		width: 15%;
+		margin: auto;
+	}
 	.id-section04-lft {
 		padding: 20px;
 	}
@@ -460,6 +477,9 @@ html {
 		background: #176cbb;
 		z-index: 100;
 	}
+	.id-section04-r8 {
+		z-index: 0;
+	}
 }
 @media only screen and (max-width: 767px) {
 	.id-section-lft {
@@ -467,6 +487,12 @@ html {
 	}
 	.inp-resp-pd {
 		padding-top: 18px;
+	}
+	.mmt-header-resp-btn {
+		margin-bottom: 1rem;
+		margin-right: 0rem;
+		width: 25%;
+		margin: auto;
 	}
 	.id-form-dv {
 		position: relative;
@@ -511,9 +537,6 @@ html {
 	.id-section04-lft {
 		width: 100%;
 	}
-	.id-section04-r8 {
-		width: 100%;
-	}
 	/* .extra-pad {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -523,13 +546,27 @@ html {
 	} */
 }
 @media only screen and (max-width: 600px) {
-	/* .extra-pad {
-		padding-left: 14px;
-		padding-right: 14px;
-	} */
 	.id-banner-01-lft {
 		margin: auto;
 		margin-left: none;
+	}
+	.id-section04-r8 {
+		width: 280px;
+		z-index: 0;
+	}
+	.mmt-header-resp-btn {
+		margin-bottom: 1rem;
+		margin-right: 0rem;
+		width: 35%;
+		margin: auto;
+	}
+	.card {
+		width: 100%;
+	}
+
+	.card-resp-marg {
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.id-section-lft {
 		width: 90%;
