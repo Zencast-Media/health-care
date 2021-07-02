@@ -69,23 +69,15 @@ html {
 /* Banner01 style starts here */
 
 .re-sec01 {
-	background-image: url(../Assets/images/Banner-big.jpg);
+	background-image: url(../Assets/images/banner00.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 550px;
 }
 
-.re-inner-sec01 {
-	background-image: url(../Assets/images/Banner-big.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 270px;
-}
-
 .mmt-banner-blur {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .mmt-bnr-circle-img {
 	border-radius: 50%;
@@ -321,18 +313,13 @@ html {
 .card-mod-wid02 {
 	width: 28%;
 }
-.re-section-down {
-	background-image: url(../Assets/images/mobile.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
 .re-section-asses {
-	background-image: url(../Assets/images/mobile.jpg);
+	background-image: url(../Assets/images/04.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 600px;
+	height: 1000px;
+	width: 100%;
 }
 .footer-socials li a {
 	width: 45px;
@@ -443,10 +430,10 @@ html {
 		margin-right: 0px;
 	}
 	.mmt-header-resp-btn {
-		margin-bottom: 1rem;
+		margin-bottom: 1rem !important;
 		margin-right: 0rem;
 		width: 15%;
-		margin: auto;
+		margin: auto !important;
 	}
 	.id-section04-lft {
 		padding: 20px;
@@ -474,11 +461,14 @@ html {
 
 @media only screen and (max-width: 991px) {
 	.navbar-collapse {
-		background: #176cbb;
+		background: #ffffff;
 		z-index: 100;
 	}
 	.id-section04-r8 {
 		z-index: 0;
+	}
+	.re-section-down {
+		background: #f3f3f3;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -488,8 +478,11 @@ html {
 	.inp-resp-pd {
 		padding-top: 18px;
 	}
+	.card {
+		width: 50%;
+	}
 	.mmt-header-resp-btn {
-		margin-bottom: 1rem;
+		margin-bottom: 1rem !important;
 		margin-right: 0rem;
 		width: 25%;
 		margin: auto;
@@ -555,7 +548,7 @@ html {
 		z-index: 0;
 	}
 	.mmt-header-resp-btn {
-		margin-bottom: 1rem;
+		margin-bottom: 1rem !important;
 		margin-right: 0rem;
 		width: 35%;
 		margin: auto;
